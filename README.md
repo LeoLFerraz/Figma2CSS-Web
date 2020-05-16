@@ -1,8 +1,22 @@
 # Figma2CSS-Web
 
-> TBI
+### Tech Details
 
-## Build Setup
+- Nuxt/Express framework
+- Universal app (SSR)
+- Axios for Figma API handling
+
+### Main product requirements:
+
+- Global install, start app from anywhere
+- Use users' own Figma API credentials
+- App lists Figma Layouts, users select which one will be handled
+- App reads layouts and extracts CSS from node elements to a specified file
+- App renders an image of the current layout
+- Watch-mode - meaning a change in the layout triggers changes in the generated CSS and image
+
+
+### Build Setup
 
 ```bash
 # install dependencies
@@ -18,5 +32,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
