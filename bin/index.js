@@ -1,6 +1,11 @@
 #!/usr/bin/env node
-const {exec} = require('child_process');
+const npm = require("npm");
 
-exec('npm run dev');
+const[,, ...args] = process.argv;
+
+npm.load();
+
+npm.load(() => npm.run("build"));
+npm.load(() => npm.run("start"));
 
 
