@@ -1,5 +1,11 @@
 # Figma2CSS-Web
 
+## Starting the server:
+
+> npm i -g https://github.com/LeoLFerraz/Figma2CSS-Web.git
+
+> figma2css
+
 ### Tech Details
 
 - Nuxt/Express framework
