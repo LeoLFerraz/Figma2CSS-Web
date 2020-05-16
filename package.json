@@ -10,6 +10,10 @@
     "start": "cross-env NODE_ENV=production node server/index.js",
     "generate": "nuxt generate"
   },
+  "bin": {
+    "figma2css": "./bin/index.js"
+  },
+  "preferGlobal": true,
   "dependencies": {
     "nuxt": "^2.0.0",
     "cross-env": "^5.2.0",
